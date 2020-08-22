@@ -1,38 +1,170 @@
-.App {
-  text-align: center;
+html {
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #3F3D56;
+    font-size: 36px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 > span {
+    color: #00BFA6;
 }
 
-.App-link {
-  color: #61dafb;
+/* Navbar */
+.navbar-pestbot {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #3F3D56;
+    position: fixed;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logo > a > span {
+    color: #00BFA6;
+}
+
+.navbar-pestbot > ul {
+    display: flex;
+}
+
+.navbar-pestbot > ul > li {
+    margin-right: 2px;
+    margin-left: 2px;
+    list-style: none;
+}
+
+.navbar-pestbot > ul > li > a {
+    padding-right: 8px;
+    padding-left: 8px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar-pestbot > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+/* Call to action */
+#call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2F2F2;
+    height: 100vh;
+    width: 100vw;
+    border-bottom: solid 1px #3F3D56;
+}
+
+#call-to-action > svg {
+    margin-right: 20px;
+}
+
+.call-box {
+    margin-left: 20px;
+    color: #3F3D56;
+    text-align: center;
+}
+
+.call-box > h1 > span, h2 > span {
+    color: #00BFA6;
+}
+
+.btn-call {
+    display: inline-block;
+    width: 220px;
+    height: 40px;
+    margin-top: 25px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #3F3D56;
+    border-radius: 20px;
+    border: 2px solid #3F3D56;
+    font-weight: bolder;
+    background: #00BFA6;
+    transition: background 0.5s ease;
+    cursor: pointer;
+}
+
+.btn-call:hover {
+    background: #01dabd;
+}
+
+/* Explain bot */
+#explain-bot {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2F2F2;
+    border-bottom: solid 1px #3F3D56;
+}
+
+.explain-text {
+    margin-left: 20px;
+}
+
+.explain-text > h1 > span {
+    color: #00BFA6;
+}
+
+.explain-text > p {
+    width: 50vw;
+    text-align: justify;
+    color: #3F3D56;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.explain-text > p > span {
+    color: #00BFA6;
+}
+
+/* Benefits */
+#benefits {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2F2F2;
+    border-bottom: solid 1px #3F3D56;
+}
+
+.benefits-text > ul {
+    width: 600px;
+}
+
+.benefits-text > ul > li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #3F3D56;
+}
+
+.benefits-text > ul > li > span {
+    color: #00BFA6;
+}
+
+/* Image Analisys */
+#img-analisys {
+    width: 100vw;
+    height: 100vh;
+    background: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
