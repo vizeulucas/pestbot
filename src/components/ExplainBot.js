@@ -6,19 +6,7 @@ const ExplainBot = () => {
         <div id="explain-bot">
             <div className="explain-text">
                 <h1>Como o Pest<span>Bot</span> Funciona</h1>
-                <p>Culpa aute esse pariatur labore voluptate voluptate laborum laboris. Lorem culpa nisi labore ipsum fugiat <span>magna</span> sunt labore est eiusmod ipsum ea exercitation. Reprehenderit occaecat nulla laboris elit cupidatat pariatur consectetur ad dolor enim velit sunt. Eu nisi aliqua velit in Lorem aliqua exercitation mollit deserunt. 
-                <br/>
-                <br/>
-                Amet ut in cillum ad pariatur cupidatat tempor amet pariatur nostrud labore sint enim occaecat. Ullamco veniam et culpa aliquip voluptate non <span>cupidatat</span> adipisicing nisi tempor et magna ad.    
-                <br/>
-                <br/>
-                Culpa aute esse pariatur labore voluptate voluptate laborum laboris. Eu nisi aliqua velit in Lorem aliqua exercitation <span>mollit</span> deserunt. Ullamco veniam et culpa aliquip voluptate non cupidatat adipisicing nisi tempor et magna ad.
-                <br/>
-                <br/>
-                Culpa aute esse pariatur labore voluptate voluptate laborum laboris. Lorem culpa nisi labore ipsum fugiat <span>magna</span> sunt labore est eiusmod ipsum ea exercitation. Reprehenderit occaecat nulla laboris elit cupidatat pariatur consectetur ad dolor enim velit sunt. Eu nisi aliqua velit in Lorem aliqua exercitation mollit deserunt. 
-                <br/>
-                <br/>
-                Amet ut in cillum ad pariatur cupidatat tempor amet pariatur nostrud labore sint enim occaecat. Ullamco veniam et culpa aliquip voluptate non <span>cupidatat</span> adipisicing nisi tempor et magna ad.</p>
+                <p>O PestBot é uma inteligência articial que utiliza recursos do IBM Watson Studio. Com isso, utilizamos a inteligência artificial da melhor forma possível e com conhecimento em pragas. Dessa maneira, ela se adapta, aprende com as perguntas e gera respostas  em tempo real, entregando informações úteis para o agricultor sobre pragas e métodos de controle. Basicamente, ensinamos ele a pensar  utilizando dados extraídos de livros e pesquisas, mantendo uma base atualizada e com novos aprendizados a cada nova interação.</p>    
             </div>
             <ExplainSvg />
         </div>
