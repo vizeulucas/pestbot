@@ -6,17 +6,14 @@ const Benefits = () => {
         <div id="benefits">
             <BenefitsSvg />
             <div className="benefits-text">
-                <h1>Beneficios por usar o Pest<span>Bot</span></h1>
+                <h1>Beneficios e Vantagens por usar o Pest<span>Bot</span></h1>
                 <ul>
-                    <li>Duis est Lorem occaecat exercitation cillum culpa et sunt sint consectetur velit culpa laborum nulla.</li>
+                    <li>Acessibilidade e filtro preciso de informações para <span>auxiliar</span> na tomada de decisões.</li>
                     <br/>
-                    <li>Ullamco fugiat minim minim id cillum dolor tempor.</li>
+                    <li><span>Simples</span> e <span>fácil</span> de usar.</li>
                     <br/>
-                    <li>Voluptate veniam excepteur sit <span>incididunt</span> est veniam.</li>
+                    <li>Aprendendo constantemente com o usuário e com novos dados sobre <span>pragas</span>.</li>
                     <br/>
-                    <li>Officia incididunt nulla ad ex exercitation consequat aute non quis do ullamco commodo veniam cupidatat.</li>
-                    <br/>
-                    <li>Dolore magna consequat incididunt voluptate reprehenderit ex anim enim <span>dolor</span> aute culpa enim.</li>
                 </ul>
             </div>
         </div>
