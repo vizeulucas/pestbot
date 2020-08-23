@@ -69,8 +69,12 @@ h1 > span {
     border-bottom: solid 1px #3F3D56;
 }
 
-#call-to-action > svg {
+.desktop-svg {
     margin-right: 20px;
+}
+
+.mobile-svg {
+    display: none;
 }
 
 .call-box {
@@ -195,7 +199,11 @@ input[type='file'] {
         display: none;
     }
 
-    #call-to-action > svg {
+    #call-to-action {
+        flex-direction: column;
+    }
+
+    .desktop-svg {
         display: none;
     }
 

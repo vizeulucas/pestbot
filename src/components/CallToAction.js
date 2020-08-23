@@ -19,7 +19,7 @@ const watson = () => {
 const CallToAction = () => {
     return (
         <div id="call-to-action">
-            <CallSvg />
+            <CallSvg className="desktop-svg"/>
             <div className="call-box">
                 <h1>Pest<span>Bot</span></h1>
                 <h2>Tire dúvidas e descubra qual <span>praga</span> está em sua plantação!</h2>
