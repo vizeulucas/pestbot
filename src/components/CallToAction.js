@@ -22,8 +22,7 @@ const CallToAction = () => {
             <CallSvg />
             <div className="call-box">
                 <h1>Pest<span>Bot</span></h1>
-                <h2>Elit sint sint <span>dolore</span> exercitation tempor ea.<br/> 
-                Tempor consectetur quis fugiat in <span>cupidatat</span> irure.</h2>
+                <h2>Tire dúvidas e descubra qual <span>praga</span> está em sua plantação!</h2>
                 <button className="btn-call" onClick={watson}>Testar Agora</button>
             </div>
         </div>
