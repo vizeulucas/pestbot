@@ -4,7 +4,6 @@ import Navbar from './components/Navbar'
 import CallToAction from './components/CallToAction';
 import ExplainBot from './components/ExplainBot';
 import Benefits from './components/Benefits';
-import ImgAnalisys from './components/ImgAnalisys';
 
 function App() {
   return (
