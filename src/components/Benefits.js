@@ -6,7 +6,7 @@ const Benefits = () => {
         <div id="benefits">
             <BenefitsSvg />
             <div className="benefits-text">
-                <h1>características por usar o Pest<span>Bot</span></h1>
+                <h1>características do Pest<span>Bot</span></h1>
                 <ul>
                     <li>Acessibilidade e filtro preciso de informações para <span>auxiliar</span> na tomada de decisões.</li>
                     <br/>
