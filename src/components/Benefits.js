@@ -8,6 +8,7 @@ const Benefits = () => {
             <div className="benefits-text">
                 <h1>características do Pest<span>Bot</span></h1>
                 <ul>
+                    <br/>
                     <li>Acessibilidade e filtro preciso de informações para <span>auxiliar</span> na tomada de decisões.</li>
                     <br/>
                     <li><span>Simples</span> e <span>fácil</span> de usar.</li>
