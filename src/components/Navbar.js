@@ -21,7 +21,7 @@ const Navbar = () => {
             <h1 className="logo"><a href="#call-to-action">Pest<span>Bot</span></a></h1>
             <ul>
                 <li><a href="#explain-bot">Como Funciona</a></li>
-                <li><a href="#benefits">Beneficios</a></li>
+                <li><a href="#benefits">características</a></li>
                 <li><a href="#" onClick={watson}>ChatBot</a></li>
             </ul>
         </div>
